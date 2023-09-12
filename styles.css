@@ -5,9 +5,39 @@
     }
 }
 
+/* 
+Background color good for debugging
+space == positioning
+ */
 
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
+.container > p {
+    background-color: black;
+    color: aliceblue;
+    font-size: 2rem;
+    padding: 16px;
+    margin-right: 16px;
+    
+}
 
+/* Gid practice */
 
+.grid-container {
+    background-color: aquamarine;
+    display: grid;
+    column-gap: 50px;
+}
 
+.grid-container > p {
+    background-color: black;
+    color: aliceblue;
+    font-size: 2rem;
+}
